@@ -4,6 +4,14 @@ import Navbar from "./components/Navbar";
 import CartContainer from "./components/CartContainer";
 // items
 import cartItems from "./cart-items";
+//redux
+import { createStore } from "redux";
+//store.getState()
+
+//initial store
+const initialStore = {
+  count: 0
+}
 function App() {
   // cart setup
 
